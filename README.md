@@ -2,7 +2,7 @@
 
 This project focuses on predicting the likelihood of thyroid cancer relapse for survivors based on comprehensive patient data. You can access the thyroid cancer detection web application [here](https://thyroid-cancer-detection-mehmkngabvohisubjwq422.streamlit.app/) to input patient details and receive predictions on the risk of cancer recurrence.
 
-Objective
+<h2>Objective</h2>
 
 The goal of this project was to develop a machine learning model that accurately predicts whether a thyroid cancer survivor is at risk of cancer relapse. The model classifies patients into two categories: at risk or not at risk based on various health metrics and diagnostic features.
 
