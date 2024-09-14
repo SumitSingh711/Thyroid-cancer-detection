@@ -11,50 +11,64 @@ The goal of this project was to develop a machine learning model that accurately
 <h4>1. Data Exploration and Preprocessing</h4>
 
 The project began with an extensive exploration and preprocessing of the dataset. This included handling missing values, encoding categorical variables, and scaling numerical features to ensure data quality. Key features were selected based on their relevance to thyroid cancer relapse prediction, including:
-Age
-Gender
-Smoking History
-Thyroid Function
-Physical Examination Results
-Pathology Details
-Cancer Stage
-Model Selection and Training
+<ul>
+<li>Age</li>
+<li>Gender</li>
+<li>Smoking History</li>
+<li>Thyroid Function</li>
+<li>Physical Examination Results</li>
+<li>Pathology Details</li>
+<li>Cancer Stage etc</li>
+</ul>
+
+<h4>2. Model Selection and Training</h4>
 
 Several classification algorithms were tested and evaluated for performance on this binary classification task. These algorithms included:
-Random Forest
-Support Vector Machine
-Logistic Regression
-Gradient Boosting
-Decision Tree
+<ul>
+<li>Random Forest</li>
+<li>Support Vector Machine</li>
+<li>Logistic Regression</li>
+<li>Gradient Boosting</li>
+<li>Decision Tree</li>
+</ul>
+
 Each model was fine-tuned and assessed to determine the best performer based on metrics such as:
-Accuracy
-Precision
-Recall
-F1 Score
+<ul>
+<li>Accuracy</li>
+<li>Precision</li>
+<li>Recall</li>
+<li>F1 Score</li>
+</ul>
+As this was a medical disease detection, recall score was main priority to ensure all actual cancer to predict correctly
 Cross-validation was employed to ensure the model's robustness and avoid overfitting.
-Model Deployment
+
+<h4>3. Model Deployment</h4>
 
 The final model, selected based on its superior performance, was deployed as an interactive web application using Streamlit. The app allows users to input various health and diagnostic metrics and receive real-time predictions on the risk of cancer relapse.
-Evaluation
+
+<h4>4. Evaluation</h4>
 
 The performance of the model was evaluated on a test dataset using the following metrics:
 Accuracy: Overall correctness of predictions.
 Precision: Proportion of positive identifications that were actually correct.
 Recall: Ability of the model to identify all positive cases.
 F1 Score: Balance between precision and recall.
-Key Features
+
+<h3>Key Features</h3>
 
 Interactive Web Application: The model is deployed on a server using Streamlit, providing an easy-to-use interface for inputting patient data and obtaining predictions on cancer relapse risk.
 Cross-Validation: Ensured the model's generalizability to unseen data.
 Real-Time Prediction: The app offers instant results based on user inputs.
-Conclusion
+
+<h3>Conclusion</h3>
 
 This end-to-end thyroid cancer detection project showcases the application of machine learning in oncology. It emphasizes the importance of data preprocessing, model selection, and thorough evaluation, while delivering a practical tool for predicting cancer relapse.
 
-Technologies Used
-
-Python
-Pandas, NumPy for data manipulation
-Scikit-learn for machine learning models
-Streamlit for deployment
-Matplotlib, Seaborn for visualizations
+<h3>Technologies Used</h3>
+<ul>
+<li>Python</li>
+<li>Pandas, NumPy for data manipulation</li>
+<li>Scikit-learn for machine learning models</li>
+<li>Streamlit for deployment</li>
+<li>Matplotlib, Seaborn for visualizations</li>
+</ul>
