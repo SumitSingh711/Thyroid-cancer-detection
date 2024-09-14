@@ -1,4 +1,4 @@
-Thyroid Cancer Detection Project
+<h1>Thyroid Cancer Detection Project</h1>
 
 This project focuses on predicting the likelihood of thyroid cancer relapse for survivors based on comprehensive patient data. You can access the thyroid cancer detection web application [here](https://thyroid-cancer-detection-mehmkngabvohisubjwq422.streamlit.app/) to input patient details and receive predictions on the risk of cancer recurrence.
 
