@@ -56,7 +56,7 @@ F1 Score: Balance between precision and recall.
 
 <h3>Key Features</h3>
 
-Interactive Web Application: The model is deployed on a server using Streamlit, providing an easy-to-use interface for inputting patient data and obtaining predictions on cancer relapse risk.
+Interactive Web Application: The model is deployed on a server using Streamlit, providing an easy-to-use interface for inputting patient data and obtaining predictions on cancer relapse risk.\n
 Cross-Validation: Ensured the model's generalizability to unseen data.
 Real-Time Prediction: The app offers instant results based on user inputs.
 
