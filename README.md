@@ -39,7 +39,7 @@ Each model was fine-tuned and assessed to determine the best performer based on 
 <li>Recall</li>
 <li>F1 Score</li>
 </ul>
-As this was a medical disease detection, recall score was main priority to ensure all actual cancer to predict correctly
+As this was a medical disease detection, recall score was main priority to ensure all actual cancer to predict correctly. 
 Cross-validation was employed to ensure the model's robustness and avoid overfitting.
 
 <h4>3. Model Deployment</h4>
