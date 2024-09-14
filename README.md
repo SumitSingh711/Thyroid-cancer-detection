@@ -8,7 +8,7 @@ The goal of this project was to develop a machine learning model that accurately
 
 <h3>Approach</h3>
 
-Data Exploration and Preprocessing
+<h4>1. Data Exploration and Preprocessing</h4>
 
 The project began with an extensive exploration and preprocessing of the dataset. This included handling missing values, encoding categorical variables, and scaling numerical features to ensure data quality. Key features were selected based on their relevance to thyroid cancer relapse prediction, including:
 Age
